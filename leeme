@@ -1,0 +1,9 @@
+Si quiero añadir un módulo nuevo(Modulo es el div que se reemplaza con las páginas en templates)
+    - Crear el modulo, por ejemplo crear.php en view/modules
+    - En el modulo, se debe colocar el html correspondiente (sin el html completo)
+    - Añadir el if a Paginas.php
+        EJ: if($action == "crear"){
+                return "view/modules/crear.php";
+            }   
+    - Para llamar, por ejemplo en un link, seria "index.php?action=crear"
+    en menu.php.
